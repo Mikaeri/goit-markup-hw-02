@@ -1,4 +1,160 @@
+/* __________VAR____________ */
 :root{
-	--
+	--primary-brand-color:#4D5AE5;
+	--dark-color:#2E2F42;
+	--text-color:#434455;
+	--sub-text-color:#8E8F99;
+	--accent-color:#E7E9FC;
+	--light-color:#F4F4FD;
+	--doc-color:#FFFFFF;
+	--active-hero-button:#404BBF;
+
+	}
+
+/* ___________BODY STYLES____ */
+body{
+	font-family: 'Roboto',sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	background-color: var(--doc-color);
 }
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.buttons {
+	font-family: 'Roboto',sans-serif;
+	border: 0;
+}
+
+/* ___________HEADER__________ */
+.header {}
+
+.navigation {
+		color: var(--dark-color);
+}
+
+.logo {
+	font-family: 'Raleway',sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	color: var(--primary-brand-color);
+}
+.header-logo:hover,
+.header-logo:focus,
+.navigation-link:hover,
+.navigation-link:focus,
+.contact-link:hover,
+.contact-link:focus
+{
+	color: var(--primary-brand-color);
+}
+
+.header-logo {
+	color: var(--dark-color);
+}
+
+.navigation-list {
+	font-weight: 600;
+}
+
+.navigation-item {}
+
+.navigation-link {
+	color: inherit;
+}
+
+.contact-list {
+  font-weight: 400;
+}
+
+.contact-item {}
+
+.contact-link {
+	color: var(--text-color);
+}
+
+/* ___________MAIN____________ */
+/* ___________HERO____________ */
+.hero {
+	font-weight: 600;
+	background-color: var(--dark-color);
+}
+
+.hero-head {
+
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	color:var(--doc-color);
+}
+
+.hero-button {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.04em;
+	align-items: center;
+	background: var(--primary-brand-color);
+	color:var(--doc-color);
+	width: 170px;
+	height: 50px;
+}
+
+.hero-button:hover,
+.hero-button:focus{
+	cursor:pointer;
+}
+
+
+/* ___________SOFT SKILLS_____ */
+
+.soft-skills {}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+.soft-skill-list {}
+
+.soft-skill-items {}
+
+.soft-skill-heads {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	color: var(--dark-color);
+}
+
+.soft-skill-text {
+	color: var(--text-color);
+}
+
+/* ___________WHAT WE DOING___ */
+.doing {}
+
+.what-are-we-doing {}
+
+.doing-list {}
+
+.doing-item {}
+
+/* ___________TEAM____________ */
+/* ___________FOOTER__________ */
 

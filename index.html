@@ -5,32 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Header -->
     <header class="header">
       <nav class="navigation">
-        <a href="index.html" class="logo"><span class="logo-part">WEB</span>STUDIO</a>
-        <ul class="">
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="/">Contacts</a></li>
+        <a href="index.html" class="logo link">WEB<span class="header-logo">STUDIO</span></a>
+        <ul class="navigation-list list">
+          <li class="navigation-item">
+            <a class="navigation-link link" href="index.html">Studio</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="navigation-item"><a class="navigation-link link" href="/">Contacts</a></li>
         </ul>
       </nav>
-      <ul class="contacts">
-        <li class="contact-list">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <ul class="contact-list list">
+        <li class="contact-item">
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
-        <li class="contact-list">
-          <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+        <li class="contact-item">
+          <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
     </header>
@@ -40,36 +43,36 @@
       <!-- Hero -->
       <section class="hero">
         <h1 class="hero-head">Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <button class="hero-button buttons" type="button">Order Service</button>
       </section>
       <!-- Soft skills -->
-      <section>
-        <h2>Soft skills</h2>
-        <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+      <section class="soft-skills">
+        <h2 class="visually-hidden">Soft skills</h2>
+        <ul class="soft-skill-list">
+          <li class="soft-skill-items list">
+            <h3 class="soft-skill-heads">Strategy</h3>
+            <p class="soft-skill-text">
               Our goal is to identify the business problem to walk away with the perfect and
               creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="soft-skill-items list">
+            <h3 class="soft-skill-heads">Punctuality</h3>
+            <p class="soft-skill-text">
               Bring the key message to the brand's audience for the best price within the shortest
               possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="soft-skill-items list">
+            <h3 class="soft-skill-heads">Diligence</h3>
+            <p class="soft-skill-text">
               Research and confirm brands that present the strongest digital growth opportunities
               and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="soft-skill-items list">
+            <h3 class="soft-skill-heads">Technologies</h3>
+            <p class="soft-skill-text">
               Design practice focused on digital experiences. We bring forth a deep passion for
               problem-solving.
             </p>
@@ -78,12 +81,16 @@
       </section>
 
       <!-- What are we doing -->
-      <section>
-        <h2>What are we doing</h2>
-        <ul>
-          <li><img src="./image/main/pc.jpg" alt="computer" width="360" height="300" /></li>
-          <li><img src="./image/main/phone.jpg" alt="phone" width="360" height="300" /></li>
-          <li>
+      <section class="doing">
+        <h2 class="what-are-we-doing">What are we doing</h2>
+        <ul class="doing-list list">
+          <li class="doing-item">
+            <img src="./image/main/pc.jpg" alt="computer" width="360" height="300" />
+          </li>
+          <li class="doing-item">
+            <img src="./image/main/phone.jpg" alt="phone" width="360" height="300" />
+          </li>
+          <li class="doing-item">
             <img
               src="./image/main/phone_and_laptop.jpg"
               alt="phone_and_laptop"
