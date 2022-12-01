@@ -8,6 +8,7 @@
 	--light-color:#F4F4FD;
 	--doc-color:#FFFFFF;
 	--active-hero-button:#404BBF;
+	--portfolio-page-color:#E5E5E5;
 
 	}
 
@@ -31,9 +32,25 @@ body{
 
 .buttons {
 	font-family: 'Roboto',sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	letter-spacing: 0.04em;
+	align-items: center;
 	border: 0;
 }
 
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
 
 /* ___________HEADER__________ */
 .header {}
@@ -92,6 +109,11 @@ body{
 	text-align: center;
 }
 
+.head-element{
+font-size: 20px;
+line-height: 1.2;
+}
+
 .secondary-header{
 	font-size: 36px;
 	line-height: 1.1;
@@ -112,21 +134,19 @@ body{
 }
 
 .hero-button {
-	font-weight: 600;
-	font-size: 16px;
+
 	line-height: 1.19;
-	letter-spacing: 0.04em;
-	align-items: center;
 	background: var(--primary-brand-color);
-	color:var(--doc-color);
+	color: var(--doc-color);
 	width: 170px;
 	height: 50px;
 }
 
-.hero-button:hover,
-.hero-button:focus{
+.buttons:hover,
+.buttons:focus{
 	cursor:pointer;
 }
+
 .hero-button:active{
 	color:var(--active-hero-button)
 }
@@ -136,18 +156,7 @@ body{
 
 .soft-skills {}
 
-.visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
-	overflow: hidden;
-}
+
 .soft-skill-list {}
 
 .soft-skill-items {}
@@ -176,15 +185,7 @@ body{
 
 .team-item {}
 
-.team-member {
-	font-size: 20px;
-	line-height: 1.2;
-}
-
-.team-position {
-	text-align: center;
-
-}
+.team-position {}
 
 
 /* ___________FOOTER__________ */
@@ -199,4 +200,43 @@ body{
 
 .footer-text {
 	color:var(--accent-color)
+}
+
+/* ___________PORTFOLIO________ */
+.portfolio{
+	background-color: var(--portfolio-page-color);
+}
+/* ___________FILTER___________ */
+.filter {}
+
+.filter-list {}
+
+.filter-item {}
+
+.filter-buttons {
+	line-height: 1.5;
+	color: var(--primary-brand-color);
+	background-color:var(--light-color)
+	}
+
+.filter-buttons:active{
+	background-color: var(--primary-brand-color);
+	color: var(--doc-color);
+	}
+
+/* ___________WORKS____________ */
+.works {}
+
+.work-list {}
+
+.work-item {}
+
+.work-link {
+	color:inherit;
+}
+
+.work-projects {}
+
+.text {
+	color: var(--light-color);
 }

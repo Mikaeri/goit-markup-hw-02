@@ -5,189 +5,197 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!-- Header -->
-    <header>
-      <nav>
-        <a href="index.html"><span>WEB</span>STUDIO</a>
-        <ul>
-          <li><a href="index.html">Studio</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <a href="index.html" class="logo link">WEB<span class="header-logo">STUDIO</span></a>
+        <ul class="navigation-list list">
+          <li class="navigation-item">
+            <a class="navigation-link link" href="index.html">Studio</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="navigation-item"><a class="navigation-link link" href="/">Contacts</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <ul class="contact-list list">
+        <li class="contact-item">
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li class="contact-item">
+          <a class="contact-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+        </li>
       </ul>
     </header>
 
     <!-- main content -->
-    <main>
+    <main class="portfolio">
       <!-- filter -->
-      <section>
-        <h2>Filter</h2>
-        <ul>
-          <li><button type="button">All</button></li>
-          <li><button type="button">Web Site</button></li>
-          <li><button type="button">App</button></li>
-          <li><button type="button">Design</button></li>
-          <li><button type="button">Marketing</button></li>
+      <section class="filter">
+        <h2 class="visually-hidden">Filter</h2>
+        <ul class="filter-list list">
+          <li class="filter-item"><button class="filter-buttons buttons" type="button">All</button></li>
+          <li class="filter-item"><button class="filter-buttons buttons"  type="button">Web Site</button></li>
+          <li class="filter-item"><button class="filter-buttons buttons"  type="button">App</button></li>
+          <li class="filter-item"><button class="filter-buttons buttons"  type="button">Design</button></li>
+          <li class="filter-item"><button class="filter-buttons buttons"  type="button">Marketing</button></li>
         </ul>
       </section>
 
       <!-- Works -->
-      <section>
-        <h1>Works</h1>
-        <ul>
-          <li>
-            <a href="/">
+      <section class="works">
+        <h1 class="visually-hidden">Works</h1>
+        <ul class="work-list list">
+          <li class="work-item">
+            <a class="work-link link" href="/">
               <img
                 src="image/portfolio/banking-app.jpg"
                 alt="Banking App"
                 width="360"
                 height="300"
               />
-              <h3>Banking App Interface Concept</h3>
-              <p>App</p>
-              <p>
+              <h2 class="section-head head-element">Banking App Interface Concept</h2>
+              <p class="work-projects">App</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
             </a>
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/cashless-payment.jpg"
                 alt="Cashless Payment"
                 width="360"
                 height="300"
               />
-              <h2>Cashless Payment</h2>
-              <p>Marketing</p>
-              <p>
+              <h2 class="section-head head-element">Cashless Payment</h2>
+              <p class="work-projects">Marketing</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
-            </a>
+            </a class="work-projects">
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/meditation-app.jpg"
                 alt="Meditation App"
                 width="360"
                 height="300"
               />
-              <h2>Meditaion App</h2>
-              <p>App</p>
-              <p>
+              <h2 class="section-head head-element">Meditaion App</h2>
+              <p class="work-projects">App</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
             </a>
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/taxi-service.jpg"
                 alt="Taxi Service"
                 width="360"
                 height="300"
               />
-              <h2>Taxi Service</h2>
-              <p>Marketing</p>
-              <p>
+              <h2 class="section-head head-element">Taxi Service</h2>
+              <p class="work-projects">Marketing</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
             </a>
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/screen-illustrations.jpg"
                 alt="Screen Illustration"
                 width="360"
                 height="300"
               />
-              <h2>Screen Illustrations</h2>
-              <p>Design</p>
-              <p>
+              <h2 class="section-head head-element">Screen Illustrations</h2>
+              <p class="work-projects">Design</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
             </a>
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/online-cources.jpg"
                 alt="Online Courses"
                 width="360"
                 height="300"
               />
-              <h2>Online Courses</h2>
-              <p>Marketing</p>
-              <p>
+              <h2 class="section-head head-element">Online Courses</h2>
+              <p class="work-projects">Marketing</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
             </a>
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/stories-concept.jpg"
                 alt="Instagram Stories Concept"
                 width="360"
                 height="300"
               />
-              <h2>Instagram Stories Concept</h2>
-              <p>Design</p>
-              <p>
+              <h2 class="section-head head-element">Instagram Stories Concept</h2>
+              <p class="work-projects">Design</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
             </a>
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/organic-food.jpg"
                 alt="Organic Food"
                 width="360"
                 height="300"
               />
-              <h2>Organic Food</h2>
-              <p>Web Site</p>
-              <p>
+              <h2 class="section-head head-element">Organic Food</h2>
+              <p class="work-projects">Web Site</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
             </a>
           </li>
-          <li>
-            <a href="/">
+          <li class="work-item">
+            <a class="work-link link"  href="/">
               <img
                 src="image/portfolio/fresh-coffee.jpg"
                 alt="Fresh Coffee"
                 width="360"
                 height="300"
               />
-              <h2>Fresh Coffee</h2>
-              <p>Web Site</p>
-              <p>
+              <h2 class="section-head head-element">Fresh Coffee</h2>
+              <p class="work-projects">Web Site</p>
+              <p class="text">
                 14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App
               </p>
@@ -198,9 +206,9 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      <a href="index.html"><span>WEB</span>STUDIO</a>
-      <p>
+    <footer class="footer">
+      <a href="index.html" class="logo link">WEB<span class="footer-logo">STUDIO</span></a>
+      <p class="footer-text">
         Increase the flow of customers and sales for your business with digital marketing & growth
         solutions.
       </p>
