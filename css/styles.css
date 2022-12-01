@@ -39,6 +39,11 @@ body{
 	border: 0;
 }
 
+.buttons:hover,
+.buttons:focus {
+	cursor: pointer;
+}
+
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -140,15 +145,19 @@ line-height: 1.2;
 	color: var(--doc-color);
 	width: 170px;
 	height: 50px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
-
-.buttons:hover,
-.buttons:focus{
-	cursor:pointer;
+.hero-button:hover,
+.hero-button:focus{
+	box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+						  0px 1px 1px rgba(46, 47, 66, 0.16),
+						  0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .hero-button:active{
 	color:var(--active-hero-button)
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -160,12 +169,6 @@ line-height: 1.2;
 .soft-skill-list {}
 
 .soft-skill-items {}
-
-.soft-skill-heads {
-	font-size: 20px;
-	line-height: 1.2;
-
-}
 
 .soft-skill-text {}
 
@@ -219,7 +222,9 @@ line-height: 1.2;
 	background-color:var(--light-color)
 	}
 
-.filter-buttons:active{
+.filter-buttons:active,
+.filter-buttons:hover,
+.filter-buttons:focus{
 	background-color: var(--primary-brand-color);
 	color: var(--doc-color);
 	}
