@@ -155,7 +155,7 @@ body{
 }
 
 .hero-button:active{
-	color:var(--active-hero-button)
+	background-color:var(--active-hero-button);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -239,3 +239,9 @@ body{
 
 .work-projects {}
 
+<<<<<<< HEAD
+=======
+.text {
+	color: var(--light-color);
+}
+>>>>>>> 9fa3d0156df94e6131ed5bcd10a6bd6dbead446e
