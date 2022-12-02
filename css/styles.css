@@ -208,6 +208,9 @@ body{
 .portfolio{
 	background-color: var(--portfolio-page-color);
 }
+
+.works{}
+
 /* ___________FILTER___________ */
 
 .filter-list {}
