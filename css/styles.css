@@ -156,7 +156,7 @@ line-height: 1.2;
 }
 
 .hero-button:active{
-	color:var(--active-hero-button)
+	background-color:var(--active-hero-button)
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
